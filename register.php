@@ -36,7 +36,7 @@
             <input type="submit" name="btnregistrar" class="btn" value="REGISTRARSE">
             <?php
                 include "modelo/conexion.php";
-                include "controlador/controlador_login.php"
+                include "controlador/controlador_register.php"
             ?>
         </form>
     </div>
