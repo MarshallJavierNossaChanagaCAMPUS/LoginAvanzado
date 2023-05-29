@@ -16,13 +16,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>
-    <?php
-        echo $_SESSION["nombre"];
-    ?>
-    </h1>
-    <a type="button" class="btn btn-primary" href="./controlador/controlador_cerrar_sesion.php">Salir</a>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="d-flex w-50">
+                <p class="fs-2 m-0">LOGO</p>
+            </div>
+            <div class="collapse navbar-collapse w-50 justify-content-end" id="navbarNavAltMarkup">
+                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="#">Minecraft</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">About me</a>
+                <a class="nav-link" href="register.php">Cerrar sesión</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="main-inicio">
+        <h1 class="fs-1 text-light position-absolute top-50 start-50 translate-middle" >WORK IN PROGRESS</h1>
+    </div>
 </body>
 </html>
-
-

@@ -1,3 +1,4 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
@@ -7,18 +8,30 @@ body{
     height: 100vh !important;
     position: fixed;
 }
+
+/* Index */
 .main-container{
     background-image: url("../img/fondo.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100% !important;
     height: 100% !important;
 }
 
-
+/* Login & register */
 .formulario{
     display: flex !important;
     padding: 50px;
     justify-content: center !important;
     width: 25%;
     background-color: red;
+}
+
+/* Inicio */
+.main-inicio{
+    background-image: url("../img/fondoInicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100% !important;
 }

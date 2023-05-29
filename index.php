@@ -12,18 +12,17 @@
 </head>
 <body>
     <div class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid d-flex justify-content-between">
+        <div class="container-fluid d-flex justify-content-between">        
             <div class="d-flex w-50">
                 <p class="fs-2 m-0">LOGO</p>
             </div>
             <div class="collapse navbar-collapse w-50 justify-content-end" id="navbarNavAltMarkup">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Minecraft</a>
-                <a class="nav-link" href="#">Blog</a>
-                <a class="nav-link" href="#">About me</a>
                 <a class="nav-link" href="login.php">Login</a>
                 <a class="nav-link" href="register.php">Register</a>
             </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </div>
     <div class="main-container w-100">
