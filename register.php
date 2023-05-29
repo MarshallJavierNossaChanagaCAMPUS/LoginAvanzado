@@ -23,7 +23,7 @@
             </div>
             <div class="div">
                 <h5>correo</h5>
-                <input type="text" name="email" id="correo" class="input" required>
+                <input type="email" name="email" id="correo" class="input" required>
             </div>
             <div class="div">
                 <h5>Usuario</h5>
