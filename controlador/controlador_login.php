@@ -23,12 +23,7 @@ if (!empty($_POST["btningresar"])) {
     } else {
         echo "Campos vacios";
     }
-    
+   
 }
-
-
-
-
-
 
 ?>

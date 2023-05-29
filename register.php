@@ -14,17 +14,29 @@
     <div class="login-content formulario position-absolute top-50 start-50 translate-middle">
         <form method="post" action="">
             <div class="div">
+                <h5>Nombres</h5>
+                <input type="text" name="nombres" id="nombres" class="input" required>
+            </div>
+            <div class="div">
+                <h5>Apellidos</h5>
+                <input type="text" name="apellidos" id="apellidos" class="input" required>
+            </div>
+            <div class="div">
+                <h5>correo</h5>
+                <input type="text" name="email" id="correo" class="input" required>
+            </div>
+            <div class="div">
                 <h5>Usuario</h5>
-                <input type="text" name="usuario" id="usuario" class="input">
+                <input type="text" name="usuario" id="usuario" class="input" required>
             </div>
             <div class="div">
                 <h5>Contraseña</h5>
-                <input type="password" name="password" id="contrasena" class="input">
+                <input type="password" name="password" id="contrasena" class="input" required>
             </div>
-            <input type="submit" name="btningresar" class="btn" value="INICIAR SESION">
+            <input type="submit" name="btnregistrar" class="btn" value="REGISTRARSE">
             <?php
                 include "modelo/conexion.php";
-                include "controlador/controlador_login.php";
+                include "controlador/controlador_login.php"
             ?>
         </form>
     </div>
