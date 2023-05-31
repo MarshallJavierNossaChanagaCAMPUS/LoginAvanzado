@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse w-50 justify-content-end" id="navbarNavAltMarkup">
                 <a class="nav-link" href="#">Inicio</a>
                 <a class="nav-link" href="#">Minecraft</a>
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="../LandingPage/Blog/index.html">Blog</a>
                 <a class="nav-link" href="#">About me</a>
                 <a class="nav-link" href="controlador/controlador_cerrar_sesion.php">Cerrar sesión</a>
             </div>

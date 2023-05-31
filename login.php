@@ -22,6 +22,7 @@
                 <input type="password" name="password" id="contrasena" class="input">
             </div>
             <input type="submit" name="btningresar" class="btn" value="INICIAR SESION">
+            <a href="../LoginAvanzado-1/register.php">REGISTRARSE</a>
             <?php
                 include "modelo/conexion.php";
                 include "controlador/controlador_login.php";
