@@ -7,25 +7,17 @@ export default {
             },
             games: [
             {
-                name: "Minecraft",
-                href: "#titleBanner"
+                name: "Nivel básico",
+                href: "#basico"
             },
             {
-                name: "Minecraft Story Mode",
-                href: "#"
+                name: "Nivel intermedio",
+                href: "#intermedio"
             },
             {
-                name: "Minecraft Dungeons",
-                href: "#"
-            },
-            {
-                name: "Minecraft Earth",
-                href: "#"
-            },
-            {
-                name: "Minecraft Legends",
-                href: "#"
-            },
+                name: "Nivel avanzado",
+                href: "#avanzado"
+            }
             ]
         }))
     },
@@ -35,7 +27,7 @@ export default {
             banner:
                 {
                 titleBanner: "Te damos la bienvenida al sitio no oficial de Minecraft",
-                descripcion: "Este es un blog personal en donde trato de expresar todo lo que es minecraft (para mi), echale un vistazo a la pagina oficial de mojang :D!",
+                descripcion: "Este es un blog personal donde les dejo todo mi conocimiento y noticias sobre la comunidad de minecraft técnico, echale un vistazo a la pagina oficial de minecraft :D!",
                 image: "./img/fondobanner.jpg",
             },
         }))
@@ -79,87 +71,23 @@ export default {
         localStorage.setItem("myAside", JSON.stringify({
             nav: [
                 {
-                    name: "About",
-                    description: "Minecraft es un videojuego de construcción de tipo mundo abierto o sandbox creado originalmente por Notch, y posteriormente desarrollado por Mojang Studios (actualmente parte de Microsoft). Fue lanzado el 17 de mayo de 2009, y después de numerosos cambios, su primera versión estable 1.0 fue publicada el 18 de noviembre de 2011. "
+                    name: "Sobre minecraft técnico",
+                    description: "El Minecraft técnico es para aquellos jugadores que les gusta construir cosas complejas y hacer trucos ingeniosos usando circuitos y sistemas automatizados dentro del juego."
                 },
                 {
                     title: "Versions trailers",
                     link: [
                         {
-                            name: "1.0",
-                            href: ""
+                            name: "Nivel básico",
+                            href: "#basico"
                         },
                         {
-                            name: "1.2",
-                            href: ""
+                            name: "Nivel intermedio",
+                            href: "#intermedio"
                         },
                         {
-                            name: "1.3",
-                            href: ""
-                        },
-                        {
-                            name: "1.5",
-                            href: ""
-                        },
-                        {
-                            name: "1.6",
-                            href: ""
-                        },
-                        {
-                            name: "1.7",
-                            href: ""
-                        },
-                        {
-                            name: "1.8",
-                            href: ""
-                        },
-                        {
-                            name: "1.9",
-                            href: ""
-                        },
-                        {
-                            name: "1.10",
-                            href: ""
-                        },
-                        {
-                            name: "1.11",
-                            href: ""
-                        },
-                        {
-                            name: "1.12",
-                            href: ""
-                        },
-                        {
-                            name: "1.13",
-                            href: ""
-                        },
-                        {
-                            name: "1.14",
-                            href: ""
-                        },
-                        {
-                            name: "1.15",
-                            href: ""
-                        },
-                        {
-                            name: "1.16",
-                            href: ""
-                        },
-                        {
-                            name: "1.17",
-                            href: ""
-                        },
-                        {
-                            name: "1.18",
-                            href: ""
-                        },
-                        {
-                            name: "1.19",
-                            href: ""
-                        },
-                        {
-                            name: "1.20",
-                            href: ""
+                            name: "Nivel avanzado",
+                            href: "#avanzado"
                         }
                     ]
                 },
@@ -197,38 +125,49 @@ export default {
             blog: [
                 {
                     title: 'Minecraft',
+                    id: 'Minecraft',
                     content: {
                         date: '23/03/2023',
                         paragraph1: 'Al inicio del juego, el jugador se encuentra en un mundo generado mediante un algoritmo, lo que permite que este sea teóricamente infinito y nunca se generen dos mundos iguales. El jugador es libre de desplazarse por el terreno, conformado por distintos biomas, entre los que se encuentran desiertos, sabanas, selvas, océanos, llanuras, tundras, etcétera. El juego posee su propio ciclo de tiempo de día y noche, siendo que un día en el juego equivale a 20 minutos en la realidad. El mundo no se genera por completo al principio, sino que está dividido en chunks («trozos», «pedazos» traducido literalmente al español, pero sin adaptación oficial) de 16  16 bloques en horizontal. Los chunks cercanos al jugador se cargan en la memoria. A medida que este se desplaza, se generan y añaden nuevos chunks al mundo.',
+                        paragraph2: 'si',
+                        paragraph3: 'no'
         
                     }
                 },
                 {
-                    title: 'Survival mode',
+                    title: 'Nivel básico',
+                    id: 'basico',
                     content: {
                         date: '23/03/2023',
-                        paragraph1: 'El modo supervivencia se basa en la vida real combinada con un poco de fantasía y se trata de la supervivencia al ataque de las múltiples criaturas que surgen en la oscuridad o de noche. El máximo aguante que tienen los personajes consta de 10 corazones (20 puntos de salud). En este modo las herramientas, armas y armadura se gastan con el uso.',
+                        paragraph1: 'Introducción al Minecraft técnico: Proporciona una introducción amigable y accesible al mundo del Minecraft técnico, explicando los conceptos básicos de la redstone, la automatización y las construcciones avanzadas.',
+                        paragraph2: 'Tutoriales paso a paso para principiantes: Crea tutoriales detallados y fáciles de seguir que guíen a los principiantes a través de construcciones técnicas básicas. Puedes enseñar cómo construir una puerta automática, un sistema de iluminación con redstone o una granja de cultivos sencilla.',
+                        paragraph3: 'Consejos para principiantes: Ofrece consejos prácticos y útiles para los jugadores que están comenzando con el Minecraft técnico. Puedes incluir consejos sobre cómo obtener recursos básicos, cómo aprender los fundamentos de la redstone y cómo explorar nuevas construcciones.'
+                    }
+                },
+                {
+                    title: 'Nivel intermedio',
+                    id: 'intermedio',
+                    content: {
+                        date: '23/03/2023',
+                        paragraph1: 'Construcciones avanzadas: Comparte tutoriales más complejos para jugadores intermedios, explicando cómo construir sistemas más sofisticados. Puedes mostrar cómo crear un sistema de clasificación de objetos, un sistema de transporte rápido o una granja de mobs automática.',
+                        paragraph2: 'Optimización y eficiencia: Proporciona consejos para mejorar la eficiencia y optimizar las construcciones técnicas. Puedes enseñar técnicas para reducir el uso de recursos, mejorar la velocidad de los sistemas automatizados y minimizar la interferencia de señales de redstone.',
+                        paragraph3: 'Diseños compactos e inteligentes: Explora diseños compactos e inteligentes que ahorren espacio en las construcciones técnicas. Comparte ideas y consejos sobre cómo crear sistemas más compactos sin sacrificar funcionalidad.'
         
                     }
                 },
                 {
-                    title: 'Creative mode',
+                    title: 'Mivel avanzado',
+                    id: 'avanzado',
                     content: {
                         date: '23/03/2023',
-                        paragraph1: 'En el modo creativo se centra enteramente en el aspecto de la construcción libre. Los jugadores poseen un suministro ilimitado de todos los bloques y objetos del juego, que pueden colocar y destruir de forma instantánea. Además, no son atacados por los monstruos, son inmunes a todo daño (aunque sí pueden morir cayendo al vacío si están en Java Edition) y pueden volar libremente por el mapa. En este modo no se pueden romper bloques sosteniendo espada, para prevenir la destrucción del entorno cuando el jugador golpea o ataca.',
-        
-                    }
-                },
-                {
-                    title: 'Hardcore mode',
-                    content: {
-                        date: '23/03/2023',
-                        paragraph1: 'El modo extremo es idéntico al modo supervivencia, con la diferencia de que tras la muerte del jugador este ya no puede volver a revivir y la dificultad está fijada en difícil.'
+                        paragraph1: 'Redstone avanzada y circuitos complejos: Dedica esta sección a tutoriales y guías sobre redstone avanzada, como la creación de circuitos lógicos complejos, contadores, sistemas de memoria y sistemas de acceso seguro.',
+                        paragraph2: 'Modificaciones y herramientas avanzadas: Explora mods y herramientas avanzadas que pueden mejorar y ampliar las posibilidades del Minecraft técnico. Comparte reseñas de mods populares y cómo utilizarlos en construcciones técnicas.',
+                        paragraph3: 'Retos y proyectos avanzados: Propón retos y proyectos desafiantes para jugadores avanzados. Puedes pedirles que construyan una computadora funcional dentro del juego, un sistema de redstone para resolver un problema complejo o una construcción impresionante utilizando técnicas avanzadas.'
                     }
                 },
             ],
             part5: {
-                title: 'Online mode',
+                title: 'Servidores técnicos',
                 content: {
                     date: '23/03/2023',
                     paragraph1: 'El modo multijugador en Minecraft permite que varios jugadores interactúen y se comuniquen entre sí en un solo mundo. Está disponible a través de multijugador directo de juego a juego, juego LAN, pantalla dividida local (solo consola) y servidores (alojados por jugadores y negocios). Los jugadores pueden ejecutar sus propios servidores, usar un proveedor de alojamiento o conectarse directamente al juego de otro jugador a través de Xbox Live. Los mundos de un solo jugador tienen soporte de red de área local, lo que permite a los jugadores unirse a un mundo en computadoras interconectadas localmente sin una configuración de servidor. Los servidores multijugador de Minecraft están guiados por operadores de servidores, que tienen acceso a los comandos del servidor, como configurar la hora del día y teletransportar a los jugadores. Los operadores también pueden establecer restricciones con respecto a qué nombres de usuario o direcciones IP pueden o no ingresar al servidor. Los servidores multijugador tienen una amplia gama de actividades, y algunos servidores tienen sus propias reglas y costumbres únicas. El servidor más grande y popular es Hypixel, que ha sido visitado por más de 14 millones de jugadores únicos. El combate jugador contra jugador (PvP) se puede habilitar para permitir la lucha entre jugadores. Muchos servidores tienen complementos personalizados que permiten acciones que normalmente no son posibles.',
@@ -250,17 +189,7 @@ export default {
                         ip: "hub.mc-complex.com",
                     }
                 ]
-            },
-            part6: {
-                title: 'Mencion honorifica a otros juegos de Mojang',
-                date: '23/03/2023',
-                paragraph1: {
-                    game1: "Minecratf Story Mode",
-                    game2: "Minecraft Dungeons",
-                    game3: "Minecraft Earth (RIP)",
-                    game4: "Minecraft Legends"
-                }
-            },
+            }
         }))
     },
 

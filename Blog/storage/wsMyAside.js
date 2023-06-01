@@ -11,7 +11,7 @@ let wsMyAside = {
     },
     cards(val) {
         return `
-        <div class="p-4 mb-3 bg-secondary rounded">
+        <div class="p-3 mt-3 mb-2 bg-secondary rounded">
             <h4 class="fst-italic">${val.name}</h4>
             <p class="mb-0">${val.description}</p>
         </div>
@@ -19,7 +19,7 @@ let wsMyAside = {
     },
     list(p1) {
         return `
-        <div class="p-4">
+        <div class="p-3">
             <h4 class="fst-italic">${p1.title}</h4>
             <ol class="list-unstyled mb-0">
             ${p1.link.map((val, id) => `<li><a href="${val.href}">${val.name}</a></li>`).join("")}

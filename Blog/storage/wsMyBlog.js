@@ -2,7 +2,7 @@ let wsMyBlog = {
     listSection1(p1) {
         let plantilla = "";
         p1.forEach((val, id) => {
-            plantilla +=  ` <h2 class="blog-post-title">${val.title}</h2> <pclass="blog-post-meta">${val.content.date}</p><p>${val.content.paragraph1}</p>`
+            plantilla +=  ` <h2 class="blog-post-title" id="${val.id}" ">${val.title}</h2> <pclass="blog-post-meta">${val.content.date}</p><p>${val.content.paragraph1}</p><p>${val.content.paragraph2}</p><p>${val.content.paragraph3}</p>`
         });
         return plantilla
     },
@@ -24,22 +24,12 @@ let wsMyBlog = {
                 <td>${val.server}</td>
                 <td>${val.players}</td>
                 <td>${val.ip}</td>
-            </tr> <br>`
+            </tr>`
         });
         plant = `<table class="table table-success table-striped table-bordered border-success">${plantilla + planTable}</table>`
         
-        return plant
-    },
-    listSection3(p1) {
-        return `
-        <h2 class="blog-post-title">${p1.title}</h2>
-        <pclass="blog-post-meta">${p1.date}</p>
-            <p>${p1.paragraph1.game1}</p>
-            <p>${p1.paragraph1.game2}</p>
-            <p>${p1.paragraph1.game3}</p>
-            <p>${p1.paragraph1.game4}</p>
-        `
-    },
+        return plant;
+    }
 }
 
 self.addEventListener("message", (e)=>{

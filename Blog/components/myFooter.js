@@ -1,12 +1,6 @@
 import config from "../storage/config.js";
 
 export default {
-    /* footer: {
-            creditos: "Blog para minecraft hecho por: Don Piola ",
-            twitter: "@piola_don",
-            link: "https://twitter.com/piola_don"
-        }, */
-
     workerFooter(){
 
         config.dataMyFooter();
