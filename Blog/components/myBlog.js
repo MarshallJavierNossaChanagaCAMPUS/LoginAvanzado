@@ -12,10 +12,6 @@ export default {
         let count = 0
 
         ws.postMessage({ module: "listSection1", data: this.blog });
-
-          ws.postMessage({module: "listSection2", data: this.part5});
- 
-         ws.postMessage({module: "listTable", data: this.part5.table})
  
          ws.postMessage({module: "listSection3", data: this.part6})  
         id = ["#articulo1" , "#articulo2", "#arTable", "#articulo3" ]
